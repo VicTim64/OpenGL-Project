@@ -1,2 +1,5 @@
-# OpenGL Project
- Advanced Programming CW
+Small OpenGL Game Prototype.
+
+- Enet Multiplayer
+- Lua Scripting Language
+- SFML Method
