@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{152e13da-eb05-426f-91c3-442b806c0db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NPC">
+      <UniqueIdentifier>{aa94cda4-4c80-45b6-b33c-a22d486a0848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HUD">
+      <UniqueIdentifier>{2f0936b6-3ba1-4498-8d7b-1fcd5c4f983c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Players">
+      <UniqueIdentifier>{f4f3a64e-8715-41c4-bcc5-edd900676a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HUD">
+      <UniqueIdentifier>{56b92892-7bee-4728-b41b-b76f2e81357b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{6cf92bf3-6f4e-4452-a563-a37520a7179a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NPC">
+      <UniqueIdentifier>{ea2fba05-b3d3-4c90-8843-13b81656c7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Players">
+      <UniqueIdentifier>{79a43580-0818-4072-bc9f-960013406e81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ammo.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Player1.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Quests.cpp">
+      <Filter>Source Files\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_NPC.cpp">
+      <Filter>Source Files\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Monsters.cpp">
+      <Filter>Source Files\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen_Win.cpp">
+      <Filter>Source Files\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Score_Count.cpp">
+      <Filter>Source Files\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Menu.cpp">
+      <Filter>Source Files\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Lives_Count.cpp">
+      <Filter>Source Files\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen_GameOver.cpp">
+      <Filter>Source Files\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Map_Creator.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity_Manage.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity_Creator.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Monitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Score_Count.h">
+      <Filter>Header Files\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_Ammo.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Player1.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Quests.h">
+      <Filter>Header Files\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_2.h">
+      <Filter>Header Files\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_1.h">
+      <Filter>Header Files\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster1.h">
+      <Filter>Header Files\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster2.h">
+      <Filter>Header Files\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Monsters.h">
+      <Filter>Header Files\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Ammo.h">
+      <Filter>Header Files\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen_Win.h">
+      <Filter>Header Files\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Menu.h">
+      <Filter>Header Files\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Engine.h">
+      <Filter>Header Files\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Lives_Count.h">
+      <Filter>Header Files\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen_GameOver.h">
+      <Filter>Header Files\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Save_System.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Map_Creator.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_State.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity_Creator.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity_Manage.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Creator.h">
+      <Filter>Header Files\NPC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lua5.1.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lua53.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
